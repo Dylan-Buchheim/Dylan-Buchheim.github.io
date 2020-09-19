@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Website Title -->
+        <title>Dylan Buchheim - Programmer Portfolio</title>
+    </head>
+
+    <body>
+        <!-- Website Header -->
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="#">Home</a>
+                <!-- Show/Hide Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Collapsable Data -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="#anchor-about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#anchor-projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="documents/resume.pdf" target="_blank">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#anchor-contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Header Banner -->
+            <div class="container-fluid text-center mt-5">
+                <div class="row paralax" id="header-banner">
+                    <div class="col-sm col-md-8 offset-md-2 my-auto">
+                        <img class="rounded-circle shadow" id="profile-img" src="images/headshot-circle.png" alt="profile image">
+                        <div class="p-1 m-1">
+                            <h2 class="text-shadow text-light mt-2">Dylan Buchheim</h2>
+                            <h5 class="text-shadow text-light typewriter">&lt;Software-Developer/&gt;</h5>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Me Section -->
+        <div class="container-fluid bg-white p-5 " id="anchor-about">
+            <div class="row pt-5">
+                <div class="col-md">
+                    <h2 class="pl-2 py-2">About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid omnis non esse labore. Asperiores voluptas ab tenetur quia voluptatibus temporibus. Laboriosam optio vel libero maiores dolore voluptate fugiat nostrum iste?
+                    </p>
+                </div>
+                <div class="col-md-6 bg-dark rounded p-4" >
+                    <div class="icon-container row">
+                        <img class="m-2"src="images/location.png" alt="loc. icon">
+                        <h5 class="text-light d-inline-block m-2">Houston, TX</h5>
+                    </div>
+                    <div class="icon-container row">
+                        <img class="m-2"src="images/graduation.png" alt="loc. icon">
+                        <h5 class="text-light d-inline-block m-2 w-75">
+                            BS in Computer Science from 
+                            <span class="text-danger font-italic">Texas Tech University</span>
+                            <span class="text-muted font-italic">Expected Dec. 2020</span>
+                        </h5>
+                        
+                    </div>
+                    <div class="my-2 py-2" id="about-sidebar">
+                        <span class="badge badge-danger m-1">C#</span>
+                        <span class="badge badge-danger m-1">C++</span>
+                        <span class="badge badge-danger m-1">C</span>
+                        <span class="badge badge-danger m-1">Java</span>
+                        <span class="badge badge-danger m-1">Python</span>
+                        <span class="badge badge-danger m-1">R</span>
+                        <span class="badge badge-danger m-1">HTML</span>
+                        <span class="badge badge-danger m-1">CSS</span>
+                        <span class="badge badge-danger m-1">JavaScript</span>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Projects Section -->
+        <div class="container-fluid bg-light p-5 " id="anchor-projects">
+            <!-- Beyond Helios info -->
+            <div class="row pt-5">
+                <div class="col-md-3 text-center mb-3 d-block">
+                    <img src="images/beyond-helios-icon.png" class="shadow app-icon" alt="Beyond Helios icon">
+                </div>
+                <div class="col-md-9 d-block">
+                    <h2>Beyond Helios | <span class="text-secondary">Mobile Game Development</span></h2>
+                    <p>
+                        Beyond Helios is a mobile game which I independently designed, developed, and published to the Apple App Store. 
+                        The game is a homage to the arcade machines of old where players compete to see how long they can survive and who can post the highest score.
+                        Featuring infinite procedural level generation, cloud game saving, realtime pathfinding, and so much more, Beyond Helios is truly one of my proudest achievements.
+                    </p>
+                    <h5>Software and Languages Used</h5>
+                    <div class="mb-4 py-2" id="about-sidebar">
+                        <span class="badge badge-danger m-1">C#</span>
+                        <span class="badge badge-danger m-1">Visual Studio</span>
+                        <span class="badge badge-danger m-1">XCode</span>
+                        <span class="badge badge-danger m-1">Unity</span>
+                    </div>
+                    <a class="btn btn-dark mr-2 anchor-scale" href="#" role="button">Try it out! &raquo;</a>
+                    <a class="btn btn-dark anchor-scale" href="#" role="button">Project Repo</a>
+                </div>
+            </div>
+            <hr>
+            <!-- other project info -->
+            <div class="row justify-content-center">
+                <div class="card-deck d-block d-md-flex">
+                    <div class="card my-4" style="max-width: 25rem;">
+                        <img src="images/terrain-thumbnail.jpg" class="card-img-top d-md-block " alt="terrain image">
+                        <div class="card-body">
+                            <h5 class="card-title">Procedural Terrain Generation</h5>
+                            <hr>
+                            <p class="card-text">
+                                An endeavor into the world of noise generation functions!
+                                Using Perlin Noise, I created a seeded terrain generation algorithim using C#, within the Unity game engine.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-dark anchor-scale" href="#" role="button">Project Repo</a>
+                        </div>
+                    </div>
+                    <div class="card my-4" style="max-width: 25rem;">
+                        <img src="images/parallel-programming.png" class="card-img-top d-md-block " alt="parallel programming image">
+                        <div class="card-body">
+                            <h5 class="card-title">Parallel Programming Algorithms</h5>
+                            <hr>
+                            <p class="card-text">
+                                A series of parallel programming projects completed for my university coursework.
+                                The projects consisted of implementing various mathematical algorithms using parallel programming libraries such as pthreads and OpenMP.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-dark anchor-scale" href="#" role="button">Project Repo</a>
+                        </div>
+                    </div>
+                    <div class="card my-4" style="max-width: 25rem;">
+                        <img src="images/data-mining-thumbnail.jpg" class="card-img-top d-md-block " alt="data mining image">
+                        <div class="card-body">
+                            <h5 class="card-title">Most Valuable Player Prediction Model</h5>
+                            <hr>
+                            <p class="card-text">
+                                As a final project for my Data Mining course, I developed a model that could predict the winner of the NBA Most Valuable Player Award with 99% accuracy.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-dark anchor-scale" href="#" role="button">Project Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <!-- Resume Section -->
+        <div class="container-fluid bg-white p-3" id="anchor-resume">
+            <div class="row justify-content-center">
+                <a class="anchor-scale" href="documents/resume.pdf" target="_blank">
+                    <div class="card shadow bg-dark" style="max-width: 350px;">
+                        <div class="row no-gutters">
+                            <div class="col-sm-4 d-sm-block d-none">
+                                <img src="images/resume.png" class="card-img" id="resume-icon"alt="resume img">
+                            </div>
+                            <div class="col-sm-8 text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title text-white bg-success rounded p-2">Click to view my resume</h5>
+                                    <p class="card-text"><small class="text-muted">Updated: Septemeber 2020</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </a> 
+            </div>
+        </div>
+
+        <!-- Website Footer -->
+        <footer>
+            <!-- Contact Section -->
+            <div class="container-fluid bg-dark p-5" id="anchor-contact">
+                <div class="row">
+                    <div class="col-md text-center ">
+                        <ul class="horizontal-list link-list-container">
+                            <li>
+                                <a href="https://linkedin.com/in/dylan-buchheim" >
+                                    <img class="rounded-circle anchor-scale" src="images/linkedin-icon.png" alt="...">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Dylan-Buchheim" class="anchor-scale">
+                                    <img class="rounded-circle anchor-scale" src="images/github-icon.png" alt="...">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:dylan.buchheim@gmail.com" class="anchor-scale">
+                                    <img class="rounded-circle anchor-scale" src="images/email-icon.png" alt="...">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md text-center pt-5">
+                        <p class="text-muted small">&copy; 2020 Dylan Buchheim &middot; Crafted with Bootstrap 4</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
